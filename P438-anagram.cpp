@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> findAnagrams(string s, string p) {
+    vector<int> findAnagrams(string s, string p ) {
         vector<int> ans;
         vector<int> recipe(26,0);
         vector<int> cart(26,0);
